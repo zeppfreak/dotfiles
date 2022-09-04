@@ -1,0 +1,42 @@
+[include]
+path = ~/.gitconfig.local
+
+[user]
+# name = foo
+# email = bar
+
+[color]
+ui = true
+
+[alias]
+st = status
+df = diff
+co = commit
+br = branch
+ps = push
+pl = pull
+ck = checkout
+graph = log --pretty=format:'%Cgreen[%cd] %Cblue%h %Cred<%cn> %Creset%s' --date=short  --decorate --graph --branches --tags --remotes
+diffw = diff --word-diff
+
+[push]
+default = current
+
+[pull]
+ff = only
+rebase = false
+
+[core]
+quotepath  = false
+autocrlf   = false
+ignorecase = false
+editor     = vi
+
+[credential]
+# [http]
+# proxy = http://proxy.example.com:8080
+# [https]
+# proxy = http://proxy.example.com:8080
+
+[ghq]
+	root = ~/Documents/workspace
