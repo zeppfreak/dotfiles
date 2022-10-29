@@ -254,3 +254,9 @@ eval "$(fasd --init posix-alias zsh-hook)"
 source /usr/local/share/zsh-history-substring-search/zsh-history-substring-search.zsh
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# -----------------
+# go configuration
+# -----------------
+export GOPATH=$HOTME/go
+export PATH=$PATH:$GOPATH/bin
