@@ -3,6 +3,8 @@
 ```sh
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+# install xcode
+xcode-select --install
 ```
 
 # How to User
