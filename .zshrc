@@ -19,6 +19,8 @@ autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 ### End of Zinit's installer chunk
 
+[[ ! -f $HOME/.zshrc.local ]] || source $HOME/.zshrc.local
+
 SCRIPT_DIR=$HOME/dotfiles
 
 source $SCRIPT_DIR/zsh/plugins.zsh
