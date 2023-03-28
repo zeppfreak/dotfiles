@@ -23,3 +23,6 @@ brew install iterm2
 
 # Chat soft
 brew install slack
+
+# json
+brew install jq
