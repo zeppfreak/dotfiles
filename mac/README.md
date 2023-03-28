@@ -7,7 +7,7 @@
 xcode-select --install
 ```
 
-# How to User
+# How to Use
 ```sh
 ./homebrew.sh
 ```
