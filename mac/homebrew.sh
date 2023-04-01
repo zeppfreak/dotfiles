@@ -32,3 +32,6 @@ brew install --cask google-cloud-sdk
 
 # node
 brew install node
+
+# k9s
+brew install derailed/k9s/k9s
