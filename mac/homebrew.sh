@@ -26,3 +26,6 @@ brew install slack
 
 # json
 brew install jq
+
+# Google Cloud SDK
+brew install --cask google-cloud-sdk
