@@ -29,3 +29,6 @@ brew install jq
 
 # Google Cloud SDK
 brew install --cask google-cloud-sdk
+
+# node
+brew install node
