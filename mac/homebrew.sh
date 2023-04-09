@@ -35,3 +35,6 @@ brew install node
 
 # k9s
 brew install derailed/k9s/k9s
+
+# pipenv
+brew install pipenv
