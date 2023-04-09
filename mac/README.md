@@ -25,3 +25,9 @@ gcloud components install gke-gcloud-auth-plugin
 
 # Other Useful Application
 - https://www.mongodb.com/try/download/compass
+- poetry
+```sh
+curl -sSL https://install.python-poetry.org | python3 -
+poetry --version
+poetry self update
+```
