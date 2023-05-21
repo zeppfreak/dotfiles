@@ -38,3 +38,6 @@ brew install derailed/k9s/k9s
 
 # pipenv
 brew install pipenv
+
+# mecab
+brew install mecab mecab-ipadic
